@@ -7,8 +7,17 @@
 </head>
 <body>
 
+    <!-- Navigation Bar -->
+    <nav style="background-color: #333; padding: 10px 0; text-align: center;">
+        <a href="#home" style="color: white; padding: 10px 20px; text-decoration: none;">Home</a>
+        <a href="#genres" style="color: white; padding: 10px 20px; text-decoration: none;">Genres</a>
+        <a href="#contact" style="color: white; padding: 10px 20px; text-decoration: none;">Contact</a>
+        <a href="#artists" style="color: white; padding: 10px 20px; text-decoration: none;">Artists</a>
+        <a href="#about" style="color: white; padding: 10px 20px; text-decoration: none;">About</a>
+    </nav>
+
     <!-- Hero Section -->
-    <header>
+    <header id="home">
         <div style="text-align: center; background-color: #000; color: white; padding: 20px;">
             <img src="/Images/African music.jpg" alt="African music" >
             <h1>Welcome to Sounds of Africa</h1>
@@ -22,37 +31,37 @@
     </header>
 
     <!-- Featured Artists Section -->
-    <section>
+    <section id="artists">
         <h2 style="text-align: center; margin-top: 30px;">Featured Artists</h2>
         <div style="display: flex; justify-content: space-around; padding: 20px;">
             <!-- Artist 1 -->
             <div style="text-align: center; width: 200px; background-color: #f4f4f4; padding: 10px;">
-                <img src="/Images/Artist1.jpg" alt="Artist 1" style="width: 100%; height: 200px; object-fit: cover;">
-                <h3>Artist Name 1</h3>
+                <img src="/Images/Davido.jpg" alt="Artist 1" style="width: 100%; height: 200px; object-fit: cover;">
+                <h3>Davido</h3>
                 <p>Short bio of the artist.</p>
-                <a href="artist1.html">Learn more about Artist 1</a>
+                <a href="artist1.html">Learn more about Davido</a>
             </div>
 
             <!-- Artist 2 -->
             <div style="text-align: center; width: 200px; background-color: #f4f4f4; padding: 10px;">
-                <img src="/Images/Artist2.jpg" alt="Artist 2" style="width: 100%; height: 200px; object-fit: cover;">
-                <h3>Artist Name 2</h3>
+                <img src="/Images/Angelique.jpg" alt="Artist 2" style="width: 100%; height: 200px; object-fit: cover;">
+                <h3>Angélique Kidjo</h3>
                 <p>Short bio of the artist.</p>
                 <a href="artist2.html">Learn more about Artist 2</a>
             </div>
 
             <!-- Artist 3 -->
             <div style="text-align: center; width: 200px; background-color: #f4f4f4; padding: 10px;">
-                <img src="/Images/Artist3.jpg" alt="Artist 3" style="width: 100%; height: 200px; object-fit: cover;">
-                <h3>Artist Name 3</h3>
+                <img src="/Images/mbonyi.jpg" alt="Artist 3" style="width: 100%; height: 200px; object-fit: cover;">
+                <h3>Islael Mbonyi</h3>
                 <p>Short bio of the artist.</p>
                 <a href="artist3.html">Learn more about Artist 3</a>
             </div>
 
             <!-- Artist 4 (Optional) -->
             <div style="text-align: center; width: 200px; background-color: #f4f4f4; padding: 10px;">
-                <img src="/Images/Artist4.jpg" alt="Artist 4" style="width: 100%; height: 200px; object-fit: cover;">
-                <h3>Artist Name 4</h3>
+                <img src="/Images/Bruce.webp" alt="Artist 4" style="width: 100%; height: 200px; object-fit: cover;">
+                <h3>Bluce melodie</h3>
                 <p>Short bio of the artist.</p>
                 <a href="artist4.html">Learn more about Artist 4</a>
             </div>
@@ -60,17 +69,17 @@
     </section>
 
     <!-- Explore by Genre Section -->
-    <section>
+    <section id="genres">
         <h2 style="text-align: center; margin-top: 30px;">Explore by Genre</h2>
         <div style="text-align: center; padding: 20px;">
-            <a href="genre1.html" style="padding: 10px; margin: 5px; background-color: #f4f4f4; text-decoration: none; color: #333;">Genre 1</a>
-            <a href="genre2.html" style="padding: 10px; margin: 5px; background-color: #f4f4f4; text-decoration: none; color: #333;">Genre 2</a>
-            <a href="genre3.html" style="padding: 10px; margin: 5px; background-color: #f4f4f4; text-decoration: none; color: #333;">Genre 3</a>
+            <a href="genre1.html" style="padding: 10px; margin: 5px; background-color: #f4f4f4; text-decoration: none; color: #333;">Afrobeat</a>
+            <a href="genre2.html" style="padding: 10px; margin: 5px; background-color: #f4f4f4; text-decoration: none; color: #333;">Highlife</a>
+            <a href="genre3.html" style="padding: 10px; margin: 5px; background-color: #f4f4f4; text-decoration: none; color: #333;">Soukous</a>
         </div>
     </section>
 
     <!-- Latest News Section -->
-    <section>
+    <section id="contact">
         <h2 style="text-align: center; margin-top: 30px;">Latest News</h2>
         <div style="text-align: center; padding: 20px;">
             <!-- News Article 1 -->
@@ -91,6 +100,12 @@
                 <p>An in-depth look at the various music genres across the African continent. <a href="news-article3.html">Read more</a></p>
             </div>
         </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 style="text-align: center; margin-top: 30px;">About Sounds of Africa</h2>
+        <p style="text-align: center;">This platform celebrates the richness of African music, featuring the best artists, genres, and trends shaping the industry.</p>
     </section>
 
 </body>
